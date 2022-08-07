@@ -1,0 +1,73 @@
+header{
+    background-color: darkblue;
+    color: #FFFAFF;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid #FFFAFF
+}
+h2 {
+    color:antiquewhite;
+    background-color:darkblue;
+    text-align:center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.navbar th{
+    border: solid blue;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    position:sticky;
+    top: 0px;
+}
+body{
+    background-image: url(../img/background2.jpg);
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+li{
+    background-color: cornflowerblue;
+    text-align: left;
+    border: 1px solid rgb(177, 197, 233);
+}
+footer{
+    background-color: darkblue;
+    color: antiquewhite;
+    font-size: 12px;
+    border: 3px solid #FFFAFF;
+    padding-left: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile{
+    text-align: center;
+}
+.even{
+    background-color: rgb(177, 197, 233);
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    color: navy;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active {
+    background-color: lightcoral;
+}
+a{
+    color: navy;
+    text-decoration: none;
+}
+.SAS{
+    text-align: center;
+}
